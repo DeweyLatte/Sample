@@ -14,6 +14,8 @@ namespace SummitClientSample
         [STAThread]
         static void Main()
         {
+            Manager manager = new Manager();
+            manager.Start();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
